@@ -562,6 +562,7 @@ hr {
   height: 15rem;
   width: 13rem;
   position: relative;
+  transition: all 0.2s ease-in-out;
 }
 .ceo {
   grid-row: 1/2;
@@ -847,4 +848,12 @@ label {
 
 .contact-page {
   height: 100vh;
+}
+
+img.pos:hover {
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
 }
